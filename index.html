@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="nxtLifeTask">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>NxtLife Task</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="..\bower_components\bootstrap\dist\css\bootstrap.css">
+</head>
+<body ng-controller="mainCtrl">
+<script src="../bower_components/angular/angular.js"></script>
+<script src="../bower_components/angular-route/angular-route.js"></script>
+<script src="app.js"></script>
+<script src="home/home.js"></script>
+<script src="contacts/contacts.js"></script>
+<header>
+    <div class="container">
+        <div class="navbar-brand brand-name">
+            <a href="index.html">NxtLife Technologies</a>
+            </div>
+  <ul class="nav navbar-nav navbar-right">
+    <li><a href="#/home">Home</a></li>
+    <li><a href="#/contacts">Contact</a></li>
+      <li><a href="#/about">About Us</a></li>
+   </ul>
+    </div>
+</header>
+  <div ng-view></div>
+
+</body>
+<div>
+<footer>
+    <p align="center" style="padding-top: 10px">&copy;NxtLife Technologies</p>
+</footer>
+</div>
+</html>

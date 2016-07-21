@@ -1,0 +1,77 @@
+/* app css stylesheet */
+html {
+    height:100%;
+}
+body{
+
+    min-height:100%;
+    position:relative;
+}
+.container{
+    padding-top: 10px;
+}
+.menu {
+  list-style: upper-roman;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+header{
+    border: solid #e4b9b9;
+    background-color: #e4b9b9;
+}
+footer{
+    font-style: italic;
+    color: #23527c;
+    position:fixed;
+    height:40px;
+    background-color: #dca7a7;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+.navbar {
+    margin: 10px 0;
+
+
+}
+
+.brand-name {
+    font-family: 'Josefin Slab', serif;
+    font-size: 47px;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+}
+
+.nav-container {
+    padding-top: 8px;
+}
+
+.navbar-custom {
+    font-size: 20px;
+    background-color: #dca7a7;
+
+}
